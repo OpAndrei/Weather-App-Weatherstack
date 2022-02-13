@@ -3,6 +3,7 @@ import Axios from 'axios';
 import './App.css';
 import DisplayWeather from './components/DisplayWeather';
 import Navbar from './components/Navbar.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
   //State
