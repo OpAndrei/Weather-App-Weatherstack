@@ -2,7 +2,7 @@ import React from "react";
 import { Form } from "react-bootstrap";
 
 export default function Navbar(props) {
-    return(
+    return (
         <div className="row">
             <div className="col-md-6">
                 <h1 className="title">Weather Application</h1>
@@ -10,7 +10,7 @@ export default function Navbar(props) {
             <div className="col-md-6">
                 <form className="region" onSubmit={(e) => props.changeWeather(e)}>
                     {/* <input className="regioninput"  placeholder="Enter Location" onChange={(e) => props.changeRegion(e.target.value)}/> */}
-                    <Form.Control type="search" placeholder="Enter Location" onChange={(e) => props.changeRegion(e.target.value)}/>
+                    <Form.Control type="search" placeholder="Enter Location" onChange={(e) => props.changeRegion(e.target.value)} />
                 </form>
             </div>
         </div>
