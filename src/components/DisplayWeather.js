@@ -45,43 +45,44 @@ export default function DisplayWeather(props) {
                     </Card.Body>
                 </Card>
             </Container>
-            {/* <div className="user-weather">
-            
-            <div className="row">
-                <div className="col-md-3 weather-temp">
-                    <h1>{temperature}<sup>o</sup>C , {description}</h1>
-                    <h4>{location}</h4>
-                    <p>{region} , {country}</p>
+            <br></br>
+            {/*<div className="user-weather">
+
+                <div className="row">
+                    <div className="col-md-3 weather-temp">
+                        <h1>25<sup>o</sup>C , {description}</h1>
+                        <h4>Amsterdam</h4>
+                        <h5><p>Western Netherlands , Netherlands</p></h5>
+                    </div>
+
+                    <div className="col-md-9">
+                        <img className="mainImg" src={img} alt="weather-img" />
+                    </div>
                 </div>
 
-                <div className="col-md-9">
-                    <img className="mainImg" src={img} alt="weather-img" />
-                </div>
-            </div>
+                <div className="row">
+                    <div className="col-md-3 weather-info">
+                        <p><b><h4>Wind Speed</h4></b></p>
+                        <h4><b>2</b><i> km/h</i></h4>
+                    </div>
 
-            <div className="row">
-                <div className="col-md-3 weather-info">
-                    <p><b>Wind Speed</b>(km/hr)</p>
-                    <h2>{wind_speed}</h2>
-                </div>
+                    <div className="col-md-3 weather-info">
+                        <p><b><h4>Pressure</h4></b></p>
+                        <h4><b>1024</b><i> millibar</i></h4>
+                    </div>
 
-                <div className="col-md-3 weather-info">
-                    <p><b>Preassure</b>(millibar)</p>
-                    <h2>{pressure}</h2>
-                </div>
+                    <div className="col-md-3 weather-info">
+                        <p><b><h4>Precipitation</h4></b></p>
+                        <h4><b>1</b><i> mm</i></h4>
+                    </div>
 
-                <div className="col-md-3 weather-info">
-                    <p><b>Precipitation</b>(mm)</p>
-                    <h2>{precip}</h2>
-                </div>
+                    <div className="col-md-3 weather-info">
+                        <p><b><h4>Humidity</h4></b></p>
+                        <h4><b>47</b><i> %</i></h4>
+                    </div>
 
-                <div className="col-md-3 weather-info">
-                    <p><b>Humidity</b>(%)</p>
-                    <h2>{humidity}</h2>
                 </div>
-
-            </div>
-        </div> */}
+            </div>*/}
         </div>
     )
 }

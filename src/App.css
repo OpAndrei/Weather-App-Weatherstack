@@ -34,6 +34,10 @@
   text-align:center;
 }
 
+.weather-info{
+  text-align: center;
+}
+
 .user-weather{
   color:#fff;
   padding:30px;
