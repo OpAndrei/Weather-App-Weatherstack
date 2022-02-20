@@ -55,7 +55,7 @@ class App extends React.Component {
   change = (value) => {
     this.setState({ inputData: value })
   }
-
+  //Update the weather depending upon the value user entered
   changeWeather = (event) => {
     event.preventDefault();
 
