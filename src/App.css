@@ -7,7 +7,7 @@
 }
 
 .container{
-  width:80%;
+  width:100%;
   margin:auto;
 }
 
@@ -51,6 +51,7 @@
 
 .region{
   margin-top:30px;
+  width: auto;
 }
 
 .regioninput{
@@ -66,4 +67,21 @@
   font-weight:600;
   font-size:1rem;
   padding-left:0;
+}
+
+.card-header{
+  background-image: linear-gradient(to bottom,#6FB3B8,#6FB3B8);
+  color: black;
+}
+
+.card-body{
+  background-image: linear-gradient(to bottom,#F6F6F2,#F6F6F2);
+}
+
+.accordion-item {
+  background-image: linear-gradient(to bottom,#DEF2F1,#DEF2F1);
+}
+
+.accordion-button{
+  background-image: linear-gradient(to bottom, #BADFE7, #BADFE7);
 }

@@ -9,7 +9,7 @@ export default function DisplayWeather(props) {
         <div>
             <Container>
                 <Card>
-                    <Card.Header as="h5">{location}, {region}, {country}</Card.Header>
+                    <Card.Header as="h4">{location}, {region}, {country}</Card.Header>
                     <Card.Body>
                         <img src={img} width='100'></img>
                         <h1>{temperature}<sup>o</sup>C , {description}</h1>
@@ -22,20 +22,20 @@ export default function DisplayWeather(props) {
                                 <Accordion.Body>
                                     <Row>
                                         <Col className='text-center'>
-                                            <p><b>Wind Speed</b>(km/hr)</p>
-                                            <h2>{wind_speed}</h2>
+                                            <p><b><h3>Wind Speed</h3></b></p>
+                                            <h2><b>{wind_speed}</b><i> km/h</i></h2>
                                         </Col>
                                         <Col className='text-center'>
-                                            <p><b>Preassure</b>(millibar)</p>
-                                            <h2>{pressure}</h2>
+                                            <p><b><h3>Pressure</h3></b></p>
+                                            <h2><b>{pressure}</b><i> millibar</i></h2>
                                         </Col>
                                         <Col className='text-center'>
-                                            <p><b>Precipitation</b>(mm)</p>
-                                            <h2>{precip}</h2>
+                                            <p><b><h3>Precipitation</h3></b></p>
+                                            <h2><b>{precip}</b><i> mm</i></h2>
                                         </Col>
                                         <Col className='text-center'>
-                                            <p><b>Humidity</b>(%)</p>
-                                            <h2>{humidity}</h2>
+                                            <p><b><h3>Humidity</h3></b></p>
+                                            <h2><b>{humidity}</b><i> %</i></h2>
                                         </Col>
                                     </Row>
                                 </Accordion.Body>
