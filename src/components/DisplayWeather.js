@@ -22,19 +22,19 @@ export default function DisplayWeather(props) {
                                 <Accordion.Body>
                                     <Row>
                                         <Col className='text-center'>
-                                            <p><b><h3>Wind Speed</h3></b></p>
+                                            <p><b>Wind Speed</b></p>
                                             <h2><b>{wind_speed}</b><i> km/h</i></h2>
                                         </Col>
                                         <Col className='text-center'>
-                                            <p><b><h3>Pressure</h3></b></p>
+                                            <p><b>Pressure</b></p>
                                             <h2><b>{pressure}</b><i> millibar</i></h2>
                                         </Col>
                                         <Col className='text-center'>
-                                            <p><b><h3>Precipitation</h3></b></p>
+                                            <p><b>Precipitation</b></p>
                                             <h2><b>{precip}</b><i> mm</i></h2>
                                         </Col>
                                         <Col className='text-center'>
-                                            <p><b><h3>Humidity</h3></b></p>
+                                            <p><b>Humidity</b></p>
                                             <h2><b>{humidity}</b><i> %</i></h2>
                                         </Col>
                                     </Row>
